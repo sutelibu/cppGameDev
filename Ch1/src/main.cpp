@@ -8,6 +8,18 @@ void add(int a, int b) {
     std::cout << "Sum of: " << a << " and " << b << " is " << c << std::endl;
 }
 
+void matrixPrinter(int a[4][4]) {
+     for (int x = 0; x < 4; x++) // row increment
+    {
+        for (int y = 0; y < 4; y++) // column increment
+        {
+            std::cout << a[x][y] << " ";
+        }
+        std::cout << "" << std::endl;
+        
+    }
+}
+
 int main()
 {
     std::cout << "Hello VSCode World" << std::endl;
@@ -87,7 +99,22 @@ int main()
 
     add(m,o);
     
+    int age[5] = { 12, 6, 18, 7, 9};
 
+    std::cout << "eement at the 0th index: " << age[0] << std::endl;
+    std::cout << "eement at the 4th index: " << age[4] << std::endl;
+
+    // 2D array
+    int matrix[4][4] = {
+        { 2, 8, 10, -5 },
+        { 15, 21, 22, 32 },
+        { 3, 0, 19, 5 },
+        { 5, 7, -23, 18 }
+    };
+
+    matrixPrinter(matrix);
+   
+    
 
 
     
