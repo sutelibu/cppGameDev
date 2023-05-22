@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/nissan/Desktop/books/cppGameDev/Ch1/build",
+  "command": "/usr/bin/g++  -I/home/nissan/Desktop/books/cppGameDev/Ch1/include -g -std=gnu++1z -o CMakeFiles/MyFirstProject.dir/src/main.cpp.o -c /home/nissan/Desktop/books/cppGameDev/Ch1/src/main.cpp",
+  "file": "/home/nissan/Desktop/books/cppGameDev/Ch1/src/main.cpp"
+}
+]
